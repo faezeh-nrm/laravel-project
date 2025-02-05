@@ -38,24 +38,6 @@
         </div>
        
       
-
-
-
-        <!-- Coupon Area-->
-        <div class="card coupon-card mb-3">
-          <div class="card-body">
-            <div class="apply-coupon">
-              <h6 class="mb-2">کد تخفیف دارید؟</h6>
-              <div class="coupon-form">
-                <form action="" method="post" >
-                  <input class="form-control" type="text" name="code">
-                  <button class="btn btn-primary" type="submit">درخواست دادن</button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-
         @php
 
            $Finalprice = 0;
@@ -83,15 +65,6 @@
 
         </div>
       </div>
-
-      
-
-      <div class="coupon-form mb-3">
-       <form action=""  >
-         <input class="form-control" value=" سفارش به مبلغ  100,000 تومان " type="text" disabled>
-         <button class="btn btn-success" type="submit">در انتظار پرداخت</button>
-       </form>
-     </div>
 
 
     </div>
